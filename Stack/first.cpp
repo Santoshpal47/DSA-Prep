@@ -12,9 +12,10 @@ int main()
     s.push(15);
     
 
+
     while (!s.empty())
     {
-        cout << s.top() << endl;
+        cout << s.top() << " ";
         s.pop();
     }
 
