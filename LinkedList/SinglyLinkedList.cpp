@@ -40,7 +40,7 @@ void InsertAtTail(Node *&tail, int value)
    Node *temp = new Node(value);
    tail->next = temp;
    tail = temp;
-}
+} 
 
 void InsertInBetween(Node *&head, Node *&tail, int position, int value)
 {
