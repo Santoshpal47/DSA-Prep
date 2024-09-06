@@ -57,6 +57,13 @@ bool searchInTrie(Trie *root, string str)
     return curr->flag;
 }
 
+
+void deleteStringInTrie(Trie* root,string str){
+
+    
+
+}
+
 int main()
 {
     Trie *root = new Trie();
